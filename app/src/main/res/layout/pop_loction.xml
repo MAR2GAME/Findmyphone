@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:background="@drawable/pop_shape"
+    >
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="260dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="120dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical">
+    </TextView>
+</LinearLayout>

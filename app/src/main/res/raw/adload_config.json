@@ -1,0 +1,28 @@
+{
+  "adload_cache_time": 3600,
+  "adload_retry_num": 1,
+  "adload_max_time": 2,
+  "adload_poolsize_open": 1,
+  "adload_poolsize_inter": 1,
+  "adload_poolsize_native": 1,
+  "adload_trigger_timing_open": {
+    "open_app": true,
+    "play_finish": true,
+    "enter_background": true,
+    "receive_notification": true
+  },
+  "adload_trigger_timing_inter": {
+    "open_app": true,
+    "play_finish": true,
+    "enter_background": false,
+    "receive_notification": false,
+    "enter_features": true
+  },
+  "adload_trigger_timing_native": {
+    "open_app": false,
+    "play_finish": false,
+    "enter_background": false,
+    "receive_notification": false,
+    "enter_features": false
+  }
+}

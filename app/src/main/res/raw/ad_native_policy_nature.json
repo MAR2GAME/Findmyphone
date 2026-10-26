@@ -1,0 +1,218 @@
+{
+  "limited": 5,
+  "limited_loadtime_seconds": 86400,
+  "totalClickMaxPerDay": 5,
+  "totalRequestMaxPerDay": 30,
+  "ad_units": [
+    {
+      "areakey": "languageSetBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "introPageBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "deviceNameSetBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "openMainNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "locationPermissionDialogNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "quitAppDialogNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "mapTypeDialogBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "nearbyRestaurantBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "addFirstDialogBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "connectDialogBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "inputCodeBtnBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "shareCodeSwitchBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "displayNameSaveBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "cameraAccessDialogNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "homeCirclesNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneListNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "friendListFirstBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "friendMapNativeAdv",
+      "ad_format": "native",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneAlertNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "phoneSearchNoticeBtmNativeAdv",
+      "ad_format": "native",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "settingNativeAdv",
+      "ad_format": "native",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 50,
+        "max_per_day": 50,
+        "interval_seconds": 0
+      }
+    }
+  ]
+}

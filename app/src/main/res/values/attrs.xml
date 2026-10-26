@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RotatingRingView">
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="arcLength" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="RectSliderView">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="progress" format="float" />
+        <attr name="trackColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="thumbColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

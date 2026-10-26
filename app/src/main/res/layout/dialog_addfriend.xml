@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:background="@drawable/bottom_shape">
+
+    <!-- 添加好友区域 -->
+    <RelativeLayout
+        android:id="@+id/rl_add"
+        android:background="@drawable/language_normal_shape"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/ic_add"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_add_friend" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ic_add"
+            android:text="@string/add_new_friend"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/ic_add"
+            android:paddingRight="20dp"
+            android:text="@string/add_friend_hint"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_next" />
+    </RelativeLayout>
+
+    <!-- 分享安全码区域 -->
+    <RelativeLayout
+        android:id="@+id/rl_share"
+        android:background="@drawable/language_normal_shape"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/ic_share_code"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_share_code" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ic_share_code"
+            android:text="@string/share_secure_code"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/ic_share_code"
+            android:paddingRight="20dp"
+            android:text="@string/secure_code"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_next" />
+    </RelativeLayout>
+
+    <!-- 分割线 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#0D1A1A1A" />
+
+    <!-- ========== 原生广告区域（已优化） ========== -->
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="4dp"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:paddingEnd="20dp">
+
+            <!-- 媒体内容（图片/视频） -->
+            <com.google.android.gms.ads.nativead.MediaView
+                android:id="@+id/ad_media"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:importantForAccessibility="no"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- AdChoices 广告选项 -->
+            <com.google.android.gms.ads.nativead.AdChoicesView
+                android:id="@+id/ad_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- 标题 -->
+            <TextView
+                android:id="@+id/ad_headline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/ad_choices"
+                app:layout_constraintStart_toEndOf="@id/ad_media"
+                app:layout_constraintTop_toTopOf="@id/ad_media" />
+
+            <!-- 正文 -->
+            <TextView
+                android:id="@+id/ad_body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="#666666"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toStartOf="@id/ad_choices"
+                app:layout_constraintStart_toEndOf="@id/ad_media"
+                app:layout_constraintTop_toBottomOf="@id/ad_headline" />
+
+            <!-- CTA 按钮 -->
+            <Button
+                android:id="@+id/ad_call_to_action"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_selector"
+                android:textAllCaps="false"
+                android:textColor="@color/text_seletor"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ad_media" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</LinearLayout>

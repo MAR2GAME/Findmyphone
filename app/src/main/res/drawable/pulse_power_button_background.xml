@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="70dp"
+    android:height="35dp"
+    android:viewportWidth="100"
+    android:viewportHeight="50">
+
+    <group
+        android:name="pulse_group"
+        android:pivotX="50"
+        android:pivotY="25">
+        <path
+            android:name="pulse_path"
+            android:fillColor="#FE5653"
+            android:pathData="M 25,7.5 h 50 a 10,10 0 0 1 10,10 v 15 a 10,10 0 0 1 -10,10 h -50 a 10,10 0 0 1 -10,-10 v -15 a 10,10 0 0 1 10,-10 Z" />
+    </group>
+
+    <!-- 波光容器，应用呼吸动画作为遮罩 -->
+    <group
+        android:name="mask_group"
+        android:pivotX="50"
+        android:pivotY="25">
+        <clip-path
+            android:name="mask_path"
+            android:pathData="M 25,7.5 h 50 a 10,10 0 0 1 10,10 v 15 a 10,10 0 0 1 -10,10 h -50 a 10,10 0 0 1 -10,-10 v -15 a 10,10 0 0 1 10,-10 Z" />
+        <!-- 波光移动组 -->
+        <group android:name="glint_translate_group">
+            <!-- 波光条形状: 倾斜的白色半透明条 -->
+            <!-- 初始位置在 0,0 附近，宽度约 20，高度覆盖 50 -->
+            <!-- 倾斜：上边 x 10..30, 下边 x -10..10 -->
+            <path
+                android:name="glint_path"
+                android:fillColor="#80FFFFFF"
+                android:pathData="M 10,0 L 30,0 L 10,50 L -10,50 Z" />
+        </group>
+    </group>
+
+</vector>

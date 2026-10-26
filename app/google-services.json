@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240715538256",
+    "project_id": "find-my-phone---gps-tracker",
+    "storage_bucket": "find-my-phone---gps-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240715538256:android:958c45d2eaa5d63e725655",
+        "android_client_info": {
+          "package_name": "com.findmyphone.gpstracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVPjKI2p1BJrTyEu2Gzwu3gAwB6phphAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

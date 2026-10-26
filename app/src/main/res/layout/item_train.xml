@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="70dp">
+    <ImageView
+        android:src="@mipmap/ic_train"
+        android:layout_centerVertical="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_name"
+       android:layout_marginLeft="50dp"
+        android:layout_centerVertical="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <View
+        android:layout_marginLeft="50dp"
+        android:background="#0D1A1A1A"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </View>
+</RelativeLayout>

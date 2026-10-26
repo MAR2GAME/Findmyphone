@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ScannerActivity"
+    android:background="@android:color/black">
+    <!-- 相机预览视图 -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/ic_scan_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_back"
+            android:text="@string/scan_QR_code"
+            android:layout_marginTop="47dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_scan_bg"/>
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="230dp"
+            android:scaleType="centerCrop"
+            android:layout_height="147dp"
+            android:layout_marginTop="-130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_scaning"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/scan_to_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fl"
+        android:layout_marginTop="30dp"
+        android:text="@string/scan_certification"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+
+
+
+
+</RelativeLayout >

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/language_normal_shape"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/iv_gender"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_male_check"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@id/iv_gender"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxWidth="240dp"
+            android:maxLines="1"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#401a1a1a"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <View
+        android:layout_below="@id/iv_gender"
+        android:layout_marginTop="10dp"
+        android:background="#0D1a1a1a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_gender"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#401a1a1a"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="33dp"
+        android:src="@mipmap/ic_item_hint"/>
+
+
+    <!--    <LinearLayout-->
+    <!--       android:layout_alignParentRight="true"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--     -->
+
+    <!--    </LinearLayout>-->
+</RelativeLayout>

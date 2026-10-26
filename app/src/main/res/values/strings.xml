@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">Find My Phone</string>
+    <string name="welcome_to_locShare">Welcome to Find My Phone!</string>
+    <string name="sp_hint">View the real-time location of your friends and family effortlessly.</string>
+    <string name="terms_of_use">Terms of Service</string>
+    <string name="privacy_policies">Privacy Policy</string>
+    <string name="please_wait_a_moment">Please wait a moment</string>
+    <string name="language">Language</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="search">Search</string>
+    <string name="start">Start</string>
+    <string name="guide_hint1">See loved ones\' locations, when they share with you.</string>
+    <string name="guide_hint2">View current locations of you and your friends.</string>
+    <string name="set_up_name">Set Up Your Device\'s Name</string>
+    <string name="bt_continue">Continue</string>
+    <string name="ok">Ok</string>
+    <string name="login_hint">Adding your name helps us identify you in emergencies and send accurate alerts to your contacts. It\'s recommended for a safe experience.</string>
+    <string name="map">Map</string>
+    <string name="running_in_background">Running in background</string>
+    <string name="circles">Circles</string>
+    <string name="settings">Settings</string>
+    <string name="location_permission">Location permission</string>
+    <string name="allow_notifications">Allow notifications</string>
+
+    <string name="allow">Allow</string>
+    <string name="enable">Enable</string>
+    <string name="get_address">Getting address...</string>
+    <string name="my_location">My location</string>
+    <string name="no_address">No address</string>
+    <string name="map_types">Map types</string>
+    <string name="network_unavailable">Network unavailable</string>
+    <string name="failed_location">Failed to enable location</string>
+    <string name="enter_phone_number">Enter a phone number to track</string>
+    <string name="phone_number_location">Phone number location</string>
+    <string name="enter_mobile">Please enter phone</string>
+    <string name="check_your_network">Network connection failed. Please check your network.</string>
+    <string name="enter_valid_mobile">Please enter a valid mobile phone number.</string>
+    <string name="query_failed">Query failed, please try again later.</string>
+    <string name="searching_for">Searching for</string>
+
+    <string name="phone_number_location_notice">Notice: You need enter full of number to be able to find the exact country location.</string>
+    <string name="phone_number_location_example">For example: +852–51234567</string>
+    <string name="phone_number_location_action_hint">Check the origin/region of mobile numbers</string>
+    <string name="phone_number_location_hint">*This content is intended for reference purpose only and its accuracy is not guaranteed.</string>
+    <string name="location_permission_required">Location permission required</string>
+    <string name="location_services_are_not_enabled">Location services are not enabled.</string>
+    <string name="fineLocation_permission_hint">Find My Phone needs your Location permission to work properly</string>
+    <string name="notification_dialog_hint">Turn on notification permissions so you won\'t miss important Message!</string>
+    <string name="backgroundLocation_permission_hint">To show your location to your circle members even when you aren’t using the app, select Allow all the time.</string>
+    <string name="open_permission_hint">To show your location to your circle members even when you aren’t using the app, select Allow all the time.</string>
+    <string name="connecting_to_station">Connecting to the cellular base station</string>
+    <string name="identifying_the_network_operator">Identifying the network operator</string>
+    <string name="invalid_phone">Invalid phone number information</string>
+    <string name="connecting_to_the_phone">Connecting to the phone</string>
+    <string name="number_verified">Number verified!</string>
+    <string name="shows_US_region">Unable to locate the city of the number; it shows a US region.</string>
+    <string name="unable_to_start_Google_Maps">Unable to start Google Maps. Please try again later.</string>
+    <string name="carrier">Carrier</string>
+    <string name="country">Country</string>
+    <string name="timezone">Timezone</string>
+    <string name="city">City</string>
+    <string name="location">Location</string>
+    <string name="verified">Verified</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="nearby_places_hint">Easily find and navigate to places around you</string>
+    <string name="coffee">Coffee</string>
+
+    <string name="bars">Bars</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="public_Service">Public Service</string>
+    <string name="house">House</string>
+    <string name="hotel">Hotel</string>
+    <string name="atm">ATM</string>
+    <string name="spa">Spa</string>
+    <string name="googleMaps_not_installed">Google Maps is not installed on the phone, so it cannot be used for searching.</string>
+    <string name="add_new_friend">Add New Friend</string>
+    <string name="secure_code">Secure code guarantees easy and safe sharing.</string>
+    <string name="share_secure_code">Share your Secure Code </string>
+
+
+    <string name="add_friend_hint">Add friends and stay connected with loved ones.</string>
+    <string name="request_error">Data request error, please try again later.</string>
+    <string name="connect_with_friends">Connect with Friends</string>
+    <string name="enter_code">Enter friend\'s secure code</string>
+    <string name="enter_code_hint">See their current location and stay connected.</string>
+    <string name="your_secure_code">Your Secure Code</string>
+    <string name="your_secure_code_hint">Share the secure code so your friends and family can track your location.</string>
+    <string name="locating_please_wait">Getting location,please wait…</string>
+    <string name="exit_app">Exit app?</string>
+    <string name="exit_app_hint">Sure you want to exit the app now?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow_track_me">Allow this user to track me</string>
+    <string name="share_to">Share to</string>
+    <string name="add_Friend">Add Friend</string>
+    <string name="enter_secure_code">Enter a Secure Code</string>
+    <string name="enter_correct_code">Please enter the correct secure code.</string>
+
+    <string name="enter_display_name">Enter a Display Name</string>
+    <string name="other">Other</string>
+    <string name="share_secure_code_action_hint">Control who you share your location with.</string>
+    <string name="share_secure_code_hint">Share the secure code so your friends and family can track your location.</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="invite_friends_hint">Share the link below with friends and start location sharing now!</string>
+    <string name="copy_text">Copied to clipboard.</string>
+    <string name="camera_permission_hint">To scan a QR code, camera permission is required. Please enable this permission.</string>
+    <string name="added_successfully">Friend added successfully.</string>
+    <string name="scan_QR_code">Scan the QR code</string>
+    <string name="scanning_error">QR code scanning error. Please scan again.</string>
+    <string name="scan_certification">Scan to verify certification</string>
+    <string name="camera_failed">Camera failed to start.</string>
+    <string name="copy_and_share">Copy and Share</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_me">About Me</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="rate_us_title">Thank you for using this app</string>
+    <string name="rate_us_hint">We would be very grateful if you could rate us 5 stars！</string>
+    <string name="submit">Submit</string>
+    <string name="version">Version</string>
+    <string name="enter_safecode">Enter Safecode</string>
+    <string name="setup_zone">Setup Zone</string>
+    <string name="zone_alert">Zone Alert</string>
+    <string name="live_locations">Live Locations</string>
+    <string name="friend_location">Friend Location Map</string>
+    <string name="friend_location_hint">View friend location on the Map</string>
+    <string name="set_zone_hint">Set up zones and get alerts for entry/exit</string>
+    <string name="zone">Zone</string>
+    <string name="add_new_zone">Add new zone</string>
+    <string name="add_your_home">Add your home</string>
+    <string name="add_your_work">Add your work</string>
+    <string name="add_your_school">Add your school</string>
+    <string name="add_your_customZone">Add your custom zone</string>
+    <string name="zone_location_permission_hint">To use this app properly, please enable location permission.</string>
+    <string name="radius">Radius</string>
+
+    <string name="enter_location">Please enter a location.</string>
+    <string name="what_is_radius">What is radius?</string>
+    <string name="radius_hint">The radius defines the circular area around a location.When a family member or friend enters or leaves this zone, you\'ll receive an alert based on your selected settings.</string>
+    <string name="invalid_location_using_default">Unable to get location, using default location</string>
+    <string name="map_loading_slow">Map is loading slowly, please wait</string>
+    <string name="error_google_play_services">Google Play Services is not installed on this device, map features unavailable</string>
+    <string name="error_maps_api_key_missing">Google Maps API Key is missing or invalid, location search unavailable</string>
+    <string name="error_init_places_api">Failed to initialize Places API, please check network and configuration</string>
+    <string name="error_network">Network connection failed, please check your network settings</string>
+    <string name="error_quota_exceeded">Places API quota exceeded, please try again later</string>
+    <string name="error_permission_denied">Insufficient permissions, please check your API key configuration</string>
+    <string name="places_api_not_ready">Places service is unavailable, please try again later</string>
+    <string name="enter_search_keyword">Please enter a search keyword</string>
+    <string name="no_search_results">No places found</string>
+    <string name="search_failed">Search failed</string>
+
+    <string name="fetch_location_failed">Failed to get place details</string>
+    <string name="location_not_found">Unable to get location information for this place</string>
+    <string name="set_up_zone">Set up Zone</string>
+    <string name="zone_name">Zone name</string>
+    <string name="enter_zone_name">Enter a Zone name</string>
+    <string name="alert_triggers">Alert Triggers</string>
+    <string name="on_enter">On enter</string>
+    <string name="on_leave">On leave</string>
+    <string name="zones_max">The maximum number of zones you can add is 10.</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="delete_successfully">delete successfully</string>
+    <string name="cannot_delete_new_zone">Cannot delete a newly created zone</string>
+    <string name="unnamed_location">Unnamed location</string>
+    <string name="places_api_not_initialized">Places service not initialized, please check network and configuration</string>
+    <string name="update_google_play_services">Please update Google Play services to use the location search feature</string>
+    <string name="error_api_key_invalid">Invalid API key, please contact developer</string>
+    <string name="friend_list">Friend List</string>
+    <string name="no_friends">You have no friends yet. Please add friends.</string>
+    <string name="tracking_disabled">Tracking disabled</string>
+    <string name="was_here_at">was here at </string>
+
+    <string name="invalid_location_data">Invalid location data</string>
+    <string name="loading_address">Loading address...</string>
+    <string name="invalid_coordinates">Invalid coordinates</string>
+    <string name="location_at">Located at</string>
+    <string name="no_initial_location">Cannot return to initial position</string>
+    <string name="edit_name_and_gender">Edit display name and gender</string>
+    <string name="track_this_user">Track this user</string>
+
+    <string name="delete_friend">Delete Friend</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <!-- 日期选择相关 -->
+    <string name="start_time_later_than_end_time">Start time cannot be later than end time</string>
+    <string name="end_time_earlier_than_start_time">End time cannot be earlier than start time</string>
+    <string name="select_start_time">Select start time</string>
+    <string name="select_end_time">Select end time</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="date_out_of_range">Date out of range</string>
+    <string name="load_more">load more</string>
+    <string name="no_data">There is no more data.</string>
+    <string name="loading_failed">Loading failed.</string>
+    <string name="loaded_successfully">Loaded successfully.</string>
+    <string name="deleting_friend">Delete</string>
+    <string name="confirm_deleting">Confirm deleting this friend.</string>
+    <string name="deleted_successfully">Friend deleted successfully.</string>
+    <string name="deleted_failed">Friend deletion failed. Please try again later.</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="pull_down">Pull Down To Refresh</string>
+    <string name="release_to">Release To Refresh</string>
+    <string name="refresh_successfully">Refresh Successfully</string>
+
+
+    <string name="map_type_general">General Map</string>
+    <string name="map_type_hybrid">Hybrid Map</string>
+    <string name="map_type_satellite">Satellite Map</string>
+    <string name="map_type_terrain">Terrain Map</string>
+    <string name="has_already_left">Has already left</string>
+    <string name="has_already_arrived">Has already arrived at</string>
+    <string name="go">Go</string>
+
+
+    <string name="home">home</string>
+    <string name="work">work</string>
+    <string name="school">school</string>
+    <string name="custom_zone">custom zone</string>
+
+
+    <string name="request_notifications_hint">To get alerts when someone enters or leaves a certain place, tap Allow and grant permission for sending you notifications</string>
+    <string name="notifications_control">Notifications control</string>
+
+    <string name="not_sharing_location">"Not sharing location</string>
+
+    <string name="currently_here">I\'m currently here:</string>
+
+
+    <string name="access_location_sharing">Access to location sharing</string>
+    <string name="access_location_sharing_hint">To show your location to your circle member seven when you aren\'t using the app, select Allow all the time.</string>
+
+    <string name="no_friends_yet">No Friends Yet</string>
+    <string name="no_friends_yet_hint">Share your Safe Code to let friends track you.</string>
+    <string name="sending_sos_hint">Confirm sending SOS message</string>
+    <string name="sos_alert">SOS Alert</string>
+    <string name="sos_alert_hint">Find My Phone will notify all circle members that you need help.</string>
+    <string name="sos_message">is requesting help from you, address: </string>
+
+
+    <string name="enter_place">%s enters %s</string>
+    <string name="leave_place">%s leaves %s</string>
+
+
+    <string name="update_hint">The update has been downloaded and completed</string>
+    <string name="update">Update</string>
+
+    <string name="this_process_may_contain_ads">This process may contain ads</string>
+
+    <string name="please_grant_camera_permissions">Please grant camera permissions</string>
+    <string name="camera_permissions_hint">No permission to access the camera.Please enable it in your phone\'s system settings to proceed.</string>
+
+
+    <string name="choose_plan">CHOOSE YOUR PLAN</string>
+    <string name="protect_loved_ones">TO PROTECT YOUR LOVED ONES</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+    <string name="auto_renew">Auto-renewable. Cancel anytime.</string>
+    <string name="popular">POPULAR</string>
+    <string name="refund_policy">Refund Policy</string>
+
+    <string name="purchase_cancelled">Purchase cancelled</string>
+    <string name="no_active_subscription">No active subscription plan</string>
+    <string name="google_play_connection_failed">Failed to connect to Google Play</string>
+    <string name="purchase_failed">Purchase failed:</string>
+    <string name="verification_failed">Verification failed</string>
+
+
+    <string name="emergency_alerts">Send and receive emergency alerts</string>
+    <string name="view_exact_location">View the exact location of your friends and family</string>
+
+    <string name="live_location_display">Live location display</string>
+    <string name="live_location_display_hint">See your current location on map</string>
+
+    <string name="real_time_tracker">Real time tracker</string>
+    <string name="real_time_tracker_hint">Track friends in your tracking list </string>
+    <string name="newyork">New York</string>
+    <string name="atlanta">Atlanta</string>
+    <string name="baltimore">Baltimore</string>
+    <string name="boston">Boston</string>
+    <string name="chicago">Chicago</string>
+    <string name="cleveland">Cleveland</string>
+    <string name="hawaii">Hawaii</string>
+    <string name="losangeles">Los Angeles</string>
+    <string name="miami">Miami</string>
+    <string name="newjersey">New Jersey</string>
+    <string name="philadelphia">Philadelphia</string>
+    <string name="san_Francisco">San Francisco</string>
+    <string name="statenisland">Staten Island</string>
+    <string name="washington">Washington</string>
+    <string name="feedback">We sincerely appreciate your feedback.</string>
+    <string name="confirm_selected_language">Confirm selected Language?</string>
+
+
+</resources>

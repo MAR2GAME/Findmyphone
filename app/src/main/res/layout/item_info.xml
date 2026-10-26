@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/tv_name"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/title_color"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </TextView>
+    <com.findmyphone.gpstracker.view.DashView
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layerType="software"
+        android:layout_gravity="center_vertical"
+      />
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/title_color" />
+</LinearLayout>

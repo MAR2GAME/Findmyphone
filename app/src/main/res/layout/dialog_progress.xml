@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_shape">
+    <com.findmyphone.gpstracker.view.MyRotatingRingView
+        android:id="@+id/rotatingRingView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:ringWidth="5dp"
+        app:backgroundColor="#334294F5"
+        app:ringColor="#4294F5"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

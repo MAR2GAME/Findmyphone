@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.LocationsListActivity">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="54dp"
+        android:layout_toRightOf="@id/iv_back"
+        android:text="@string/friend_list"
+        android:textColor="@color/title_color"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@id/iv_back"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <com.scwang.smart.refresh.layout.SmartRefreshLayout
+                android:id="@+id/sm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srlEnableRefresh="false"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rc_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+                <com.scwang.smart.refresh.footer.ClassicsFooter
+                    android:id="@+id/cf"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    app:srlTextFailed="@string/loading_failed"
+                    app:srlTextFinish="@string/loaded_successfully"
+                    app:srlTextLoading="@string/load_more"
+                    app:srlTextNothing="@string/no_data"
+                    app:srlAccentColor="@color/title_color"
+                    app:srlTextSizeTime="16sp"
+                    app:srlTextSizeTitle="16sp" />
+            </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+
+            <ImageView
+                android:id="@+id/iv_noData"
+                android:textColor="@color/title_color"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_location_erro"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                android:layout_width="260dp"
+                android:layout_height="260dp">
+            </ImageView>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="330dp"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_selector"
+            android:text="@string/add_new_friend"
+            android:textAllCaps="false"
+            android:textColor="@color/text_seletor"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

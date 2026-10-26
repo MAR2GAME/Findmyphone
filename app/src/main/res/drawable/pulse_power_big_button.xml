@@ -1,0 +1,14 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/pulser_power_big_button_backgroud">
+    <target
+        android:name="pulse_path"
+        android:animation="@animator/pulse_big_animator" />
+
+    <target
+        android:name="mask_path"
+        android:animation="@animator/pulse_big_animator" />
+    <target
+        android:name="glint_translate_group"
+        android:animation="@animator/glint_sweep_big_animator" />
+
+</animated-vector>

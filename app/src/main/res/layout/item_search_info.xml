@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.findmyphone.gpstracker.view.RotatingRingView
+        android:id="@+id/rotatingRingView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:ringWidth="2dp"
+        app:ringColor="#4294F5"
+        app:backgroundColor="#334294F5"/>
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_zone_check"
+        />
+    <TextView
+        android:id="@+id/tv_info"
+        android:textSize="15sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/title_color"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</RelativeLayout>

@@ -1,0 +1,318 @@
+{
+  "limited": 2,
+  "limited_loadtime_seconds": 86400,
+  "totalClickMaxPerDay": 2,
+  "totalRequestMaxPerDay": 15,
+  "ad_units": [
+    {
+      "areakey": "openPageAdv",
+      "ad_format": "open",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "foreGroundAdv",
+      "ad_format": "open",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 30
+      }
+    },
+    {
+      "areakey": "newLanguageSetFinishAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterMetroMapAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "metroMapBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "newIntroPageFinishAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterHistoryAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "historyBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "newDeviceNameSetFinishAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterPhoneSearchAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "phoneSearchClickAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "phoneSearchBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "sosBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 5,
+        "max_per_day": 5,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterInputCodeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterShareCodeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "shareCodeBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "inputCodeBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterDisplayNameAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "displayNameSaveClickAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterZoneListAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterZoneEditAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterFriendListAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterZoneAlertAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneListBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneSaveBackAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneEditBackAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "friendListBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "zoneAlertBackHomeAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterFriendMapAdv",
+      "ad_format": "interstitial",
+      "rate": 1,
+      "frequency_caps": {
+        "max_per_hour": 2,
+        "max_per_day": 2,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterSettingLanguageAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    },
+    {
+      "areakey": "enterSettingDeviceNameAdv",
+      "ad_format": "interstitial",
+      "rate": 0,
+      "frequency_caps": {
+        "max_per_hour": 0,
+        "max_per_day": 0,
+        "interval_seconds": 0
+      }
+    }
+  ]
+}
